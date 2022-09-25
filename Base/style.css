@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Tiro+Gurmukhi&display=swap');
+*{
+
+
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+}
+body{
+    background-image: url("images\leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}

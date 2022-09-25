@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Tiro+Gurmukhi&display=swap');
+*{
+
+
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+}
+body{
+    background-color: #89CFF0;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+.userplaycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.card{
+    background-color: #285cc4;
+    display: flex;
+    padding:3rem;
+    border-radius: 20px;
+    max-width: 800px;
+}
+.avatar{
+    
+    border:5px solid   #89CFF0;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.name{
+    margin-left: 2rem;
+    color: white;
+}
+.name h2{
+    margin-top: 0px;
+}
+/* .imgcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+    max-width:400px;
+    list-style: none;
+}
+#userid{
+    background-color: #285cc4;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    
+    font-size: 1rem;
+    padding:1rem;
+    margin-bottom: 2rem;
+    
+}
+#userid::placeholder{
+    color: white;
+}
+#userid:focus{
+    outline: none;
+}
+.info li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+.repo{
+   
+    background-color: #032434;
+    display: inline-block;
+    color:white;
+    padding:0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom:0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}

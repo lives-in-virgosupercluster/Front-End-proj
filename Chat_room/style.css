@@ -1,0 +1,70 @@
+.logo{
+    display: block;
+    margin:auto;
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color:  #28CC9E;
+    height: 100vh;
+}
+.container{
+    max-width: 995px;
+    background-color: aqua;
+    margin:auto;
+    height: 60vh;
+    background-color: #A6ED8E;
+    /* height: 100vh; */
+    border: 2px  solid;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+.message{
+    background-color: grey;;
+    width: 24%;
+    padding:10px;
+    margin:17px 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    clear:both;
+
+}
+.right{
+    float:right;
+    clear:both;
+}
+#send-container{
+    
+    /* text-align: center; */
+    /* max-width: 500px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center; */
+    display: flex;
+    /* max-width: 500px; */
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+
+}
+#messageInp{
+  width:35%;
+  border:2px solid black;
+  border-radius:6px;
+  height: 34px;  
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.send{
+    display: flex;
+    flex-direction: column;
+}
